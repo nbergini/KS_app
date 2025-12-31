@@ -1,10 +1,3 @@
-echo "# KS_app" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/nbergini/KS_app.git
-git push -u origin main
 import streamlit as st
 import numpy as np
 from PIL import Image
